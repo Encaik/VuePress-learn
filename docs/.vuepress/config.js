@@ -8,11 +8,21 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '主页', link: '/' },
-      {text: '博文',
+      {text: '前端开发',
         items: [
-          { text: 'android', link: '/android/' },
-          { text: 'ios', link: '/ios/' },
-          { text: 'web', link: '/web/' }
+          { text: 'HTML', link: '/fore-end/html/' },
+          { text: 'CSS', link: '/fore-end/css/' },
+          { text: 'JavaScript', link: '/fore-end/js/'},
+          { text: 'Vue.js', link: '/fore-end/vue/'},
+          { text: 'webpack', link: '/fore-end/webpack/'},
+          { text: 'sass', link: '/fore-end/sass/'},
+        ]
+      },
+      {text: '后端开发',
+        items: [
+          { text: 'html', link: '/back-end/html/' },
+          { text: 'css', link: '/back-end/css/' },
+          { text: 'js', link: '/back-end/js/'}
         ]
       },
       { text: '关于', link: '/about/' },
@@ -27,7 +37,11 @@ module.exports = {
         "appstore",
         "swift",
       ],
-      "/web/": [
+      "/web/html/": [
+      ],
+      "/web/css/": [
+      ],
+      "/web/js/": [
         "vue",
         "webpack",
       ],
