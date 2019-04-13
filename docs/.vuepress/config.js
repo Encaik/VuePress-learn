@@ -2,7 +2,6 @@ module.exports = {
   title: 'Encaik',
   description: '个人技术文档归纳网页',
   dest: 'docs/.vuepress/Encaik-Pages',
-  base: './',
   head: [
     ['link', { rel: 'icon', href: '/img/icon.png' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
