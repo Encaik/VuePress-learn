@@ -2,6 +2,7 @@ module.exports = {
   title: 'Encaik',
   description: '个人技术文档归纳网页',
   dest: 'docs/.vuepress/Encaik-Pages',
+  base: '/Encaik-Pages/',
   head: [
     ['link', { rel: 'icon', href: '/img/icon.png' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
@@ -9,15 +10,23 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '主页', link: '/' },
+      { text: '博文', link: '/blog/' },
       {
         text: '前端开发',
         items: [
-          { text: 'HTML', link: '/fore-end/html/' },
-          { text: 'CSS', link: '/fore-end/css/' },
-          { text: 'JavaScript', link: '/fore-end/js/' },
-          { text: 'Vue.js', link: '/fore-end/vue/' },
-          { text: 'Node.js', link: '/fore-end/node/' },
-          { text: 'Sass', link: '/fore-end/sass/' },
+          { text: 'HTML', items: [
+            {text: 'HTML5', link: '/front-end/html/html5/'}
+          ] },
+          { text: 'CSS', items: [
+            {text: 'CSS3', link: '/front-end/css/css3/' },
+            {text: 'SCSS', link: '/front-end/css/scss/' },
+          ] },
+          { text: 'JS', items: [
+            {text: 'ES5', link: '/front-end/js/' }
+          ] },
+          { text: '框架', items: [
+            {text: 'Vue.js', link: '/front-end/vue/' }
+          ] },
         ]
       },
       {
@@ -27,24 +36,27 @@ module.exports = {
           { text: '爬虫', link: '/back-end/crawler/' },
         ]
       },
+      { text: '杂记', link: '/note/' },
       { text: '关于', link: '/about/' },
       { text: 'Github', link: 'https://github.com/Encaik' },
     ],
     sidebar: {
-      "/fore-end/html/": [
+      "/front-end/html/html5": [
+        ""
       ],
-      "/fore-end/css/": [
+      "/front-end/css/css3": [
+        ""
       ],
-      "/fore-end/js/": [
+      "/front-end/css/scss": [
+        ""
       ],
-      "/fore-end/vue/": [
+      "/front-end/js/": [
+        ""
+      ],
+      "/front-end/vue/": [
         "",
         "vue-cil",
         "vuepress",
-      ],
-      "/fore-end/node/": [
-      ],
-      "/fore-end/sass/": [
       ],
     },
     sidebarDepth: 2,

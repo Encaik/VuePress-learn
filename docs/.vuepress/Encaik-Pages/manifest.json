@@ -1,11 +1,11 @@
 {
-    "name": "Encaik",
-    "short_name": "Encaik",
+    "name": "Encaik-Pages",
+    "short_name": "Encaik-Pages",
     "start_url": "index.html",
     "display": "standalone",
-    "background_color": "#2196f3",
+    "background_color": "#fff",
     "description": "Encaik的个人主页",
-    "theme_color": "blue",
+    "theme_color": "white",
     "icons": [{
         "src": "./img/icon.png",
         "sizes": "144x144",
