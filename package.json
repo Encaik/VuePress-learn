@@ -10,5 +10,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli": "^3.6.3",
+    "apollo-tracing": "^0.5.2",
+    "ts-node": "^8.1.0",
+    "vue-resize": "^0.4.5",
+    "vue-virtual-scroller": "^1.0.0-rc.2"
+  }
 }
