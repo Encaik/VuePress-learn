@@ -2,12 +2,28 @@
 home: true
 actionText: Github
 actionLink: https://github.com/Encaik
-features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer:  Copyright © 2019-Encaik
+footer:  Copyright © 2019 write by Encaik with Vuepress
 ---
+
+---
+
+<table>
+    <tr style="border:0px;text-align: center;vertical-align: super">
+        <td  style="border:0px">
+            <a href="/front-end/js/">
+                <img src="./img/es6.jpg" alt="" style="border-radius:10px">
+                <br>
+                <p>ECMAscript6</p>
+            </a>
+        </td>
+        <td style="border:0px"><img src="./img/node.jpg" alt="" style="border-radius:10px"></td>
+        <td style="border:0px"><img src="./img/vue.jpg" alt="" style="border-radius:10px"></td>
+        <td style="border:0px"><img src="./img/todo.jpg" alt="" style="border-radius:10px"></td>
+    </tr>
+    <tr style="border:0px;background-color:#fff;">
+        <td style="border:0px"><img src="./img/vue.jpg" alt="" style="border-radius:10px"></td>
+        <td style="border:0px"><img src="./img/todo.jpg" alt="" style="border-radius:10px"></td>
+        <td style="border:0px"><img src="./img/vue.jpg" alt="" style="border-radius:10px"></td>
+        <td style="border:0px"><img src="./img/todo.jpg" alt="" style="border-radius:10px"></td>
+    </tr>
+</table>

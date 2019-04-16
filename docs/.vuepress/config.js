@@ -32,8 +32,12 @@ module.exports = {
       {
         text: '后端开发',
         items: [
-          { text: 'Django', link: '/back-end/django/' },
-          { text: '爬虫', link: '/back-end/crawler/' },
+          { text: '语言', items: [
+            {text: 'Python', link: '/back-end/python/' }
+          ] },
+          { text: '框架', items: [
+            {text: 'Django', link: '/back-end/django/' }
+          ] },
         ]
       },
       { text: '杂记', link: '/note/' },
